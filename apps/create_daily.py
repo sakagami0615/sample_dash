@@ -10,7 +10,7 @@ layout = html.Div([
 
     html.Div(children=[
 
-        html.H3('Show Dashboard'),
+        html.H3('Create Daily EMail'),
 
     ], style={'padding': 10, 'flex': 4})
 ], style={'display': 'flex', 'flex-direction': 'row'})

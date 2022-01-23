@@ -1,0 +1,25 @@
+.menu-tree-btn {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+.menu-tree-btn:hover {
+    background-color: silver;
+}
+
+.param-title-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+.param-desc-label {
+    font-size: 14px;
+}
+
+.log-label {
+    font-size: 12px;
+}
