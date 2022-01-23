@@ -1,0 +1,4 @@
+*.pyc
+dtp-env/
+macenv/
+SAMPLE/
