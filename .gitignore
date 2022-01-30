@@ -1,4 +1,6 @@
 *.pyc
+@削除予定/old
+@devtool/
+
 dtp-env/
-macenv/
-SAMPLE/
+mac-env/

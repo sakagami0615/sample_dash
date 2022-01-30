@@ -1,0 +1,15 @@
+add-last-mail-flag-id:
+- ''
+category-table-id: []
+chapter-mark-table-id:
+-   Class: ''
+    Matter: ''
+    Task: ''
+matter-item-table-id: []
+email-folder-text-id: ''
+eom-text-id: ''
+fooder-text-id: ''
+header-text-id: ''
+last-email-iter-id: null
+send-address-table-id: []
+subject-text-id: ''

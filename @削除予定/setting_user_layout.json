@@ -1,0 +1,22 @@
+{
+    "user-name-text": {
+        "type" : "text",
+        "name" : "User Name",
+        "descs": ["日報メールに使用する名前を指定する。（特にこだわりがなければ名字を記入）"]
+    },
+    "email-address-text": {
+        "type" : "text",
+        "name" : "Email address",
+        "descs": ["自身のOutlookのメールアドレスを指定する。"]
+    },
+    "excel-file-text": {
+        "type" : "text",
+        "name" : "Daily Excel File",
+        "descs": ["読み込む日報エクセルのPathを指定します。"]
+    },
+    "excel-sheet-text": {
+        "type" : "text",
+        "name" : "Daily Sheet Name",
+        "descs": ["読み込む日報エクセルのシート名を指定します。"]
+    }
+}

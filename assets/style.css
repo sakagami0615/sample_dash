@@ -1,17 +1,18 @@
 /* メニューツリーのレイアウト */
-.menu-tree-layout {
+.menu-tree-layout-cls {
     padding: 5px;
     width: 15%;
     min-width: 250px;
+    background-color: white;
 }
 
 /* ページのレイアウト */
-.page-layout {
+.page-layout-cls {
     padding: 10px;
 }
 
 /* メニューツリーのボタンのデザイン */
-.menu-tree-btn {
+.menu-tree-btn-cls {
     color: black;
     background: white;
     width: 100%;
@@ -20,23 +21,66 @@
     font-size: 18px;
     text-align: left;
 }
-.menu-tree-btn:hover {
+.menu-tree-btn-cls:hover {
     background: silver;
 }
 
-/* パラメータ設定ページの各パラメータの名前のデザイン */
-.param-title-label {
-    font-size: 16px;
-    font-weight: bold;
-}
-/* パラメータ設定ページの角パラメータの説明文のデザイン */
-.param-desc-label {
+/* パラメータ設定ページの各パラメータの説明文のデザイン */
+.page-desc-label-cls {
     font-size: 14px;
 }
 
+/* パラメータ設定ページの各パラメータの名前のデザイン */
+.param-title-label-cls {
+    font-size: 16px;
+    font-weight: bold;
+}
+/* パラメータ設定ページの各パラメータの説明文のデザイン */
+.param-desc-label-cls {
+    font-size: 14px;
+}
+
+/* 文字列パラメータのInputのデザイン */
+.param-input-text-cls {
+    width: 80%;
+    height: 20px;
+    font-size: 14px;
+}
+/* 数値パラメータのInputのデザイン */
+.param-input-number-cls {
+    width: 40%;
+    height: 20px;
+    font-size: 14px;
+}
+/* 文字列パラメータのtextareaのデザイン */
+.param-textarea-cls {
+    resize: none;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+}
+
+/* テーブルパラメータのdash-tableのデザイン */
+.param-table-cls {
+    width: 100%;
+}
+
+/* 1列テーブルパラメータのdash-tableのデザイン */
+.param-single-column-cls {
+    width: 70%;
+}
+
+/* テーブルパラメータのAddRowボタンのデザイン */
+.param-table-add-btn-cls {
+    margin: 5px 0px 0px;
+    width: 100px;
+    height: 28px;
+    font-size: 16px;
+}
+
 /* 日報作成ボタンのデザイン */
-.create-daily-btn {
-    margin-left: 15px;
+.create-daily-btn-cls {
+    margin: 16px 16px 0px;
     color: white;
     background: #0099FF;
     border-radius: 5px;
@@ -46,14 +90,14 @@
     font-size: 18px;
     font-weight: bold;
 }
-.create-daily-btn:hover {
+.create-daily-btn-cls:hover {
     color: white;
     background:#0088FF;
 }
 
 /* 日報メール送信ボタンのデザイン */
-.daily-submit-btn {
-    margin-top: 12px;
+.send-daily-btn-cls {
+    margin-top: 16px;
     color: white;
     background: #0099FF;
     border-radius: 5px;
@@ -63,13 +107,13 @@
     font-size: 16px;
     font-weight: bold;
 }
-.daily-submit-btn:hover {
+.send-daily-btn-cls:hover {
     color: white;
     background:#0088FF;
 }
 
 /* 作成日報テキストエリアのデザイン */
-.daily-textarea {
+.daily-textarea-cls {
     resize: auto;
     min-width: 500px;
     max-width: 1000px;

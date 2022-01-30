@@ -1,0 +1,47 @@
+{
+    "subject-text": {
+        "type" : "text",
+        "name" : "Subject String",
+        "descs": ["日報メールの件名を指定する。"]
+    },
+    "header-text": {
+        "type" : "textbox",
+        "name" : "Header String",
+        "descs": ["日報メールに記載するヘッダー文章を指定する。（○○さん お疲れ様です… の部分の文章）"]
+    },
+    "fooder-text": {
+        "type" : "textbox",
+        "name" : "Fooder String",
+        "descs": ["日報メールに記載するフッダー文章を指定する。（よろしくお願いします… の部分の文章）"]
+    },
+    "eom-text": {
+        "type": "text",
+        "name": "EOM String",
+        "descs": ["日報メールの前日と前々日を分割するために使用する文字列を指定する。",
+                "フッダーに仕込んでおいた区切り文字列をここに記載するような使い方を想定している。",
+                "（ただ特に問題なければ [From:]のまま使用する"]
+    },
+    "add-last-mail-flag": {
+        "type"   : "checkbox",
+        "name"   : "Add Last Mail Contents",
+        "options": [{"label": "前日日報メールの内容を転記するかのフラグ。不在予定とかが転記されます。", "value": "enable"}]
+    },
+    "email-folder-text": {
+        "type" : "text",
+        "name" : "Search Last EMail Folder",
+        "descs": ["前日メールを探索するフォルダを指定します。"]
+    },
+    "search-last-email-iter": {
+        "type" : "number",
+        "max"  : 100,
+        "min"  : 1,
+        "step" : 1,
+        "name" : "Search Last EMail Iteration",
+        "descs": ["前日メールを探索する試行回数を指定します。"]
+    },
+    "send-email-address": {
+        "type" : "text",
+        "name" : "To/Cc EMail Address",
+        "descs": ["日報メールの宛先を指定する。"]
+    }
+}
